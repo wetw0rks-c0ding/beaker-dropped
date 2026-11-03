@@ -35,7 +35,6 @@ source code**.
   <img src="screenshots/seerr.png" width="300" alt="Seerr screen" />
   <img src="screenshots/sonarr.png" width="300" alt="Sonarr screen" />
   <img src="screenshots/sonarr_dark.png" width="300" alt="Sonarr dark screen" />
-  <img src="screenshots/qbit.png" width="300" alt="qBittorrent screen" />
 </p>
 
 ### Media details
@@ -47,16 +46,13 @@ source code**.
 ### Activity management
 <p align="center">
   <img src="screenshots/activity.png" width="300" alt="Activity screen" />
-  <img src="screenshots/history.png" width="300" alt="History screen" />
 </p>
 
-### Search, import & settings
+### Search & import
 <p align="center">
   <img src="screenshots/search.png" width="300" alt="Search screen" />
   <img src="screenshots/search_dark.png" width="300" alt="Search dark screen" />
   <img src="screenshots/manual_import.png" width="300" alt="Manual import screen" />
-  <img src="screenshots/manual_import_dark.png" width="300" alt="Manual import dark screen" />
-  <img src="screenshots/settings.png" width="300" alt="Settings screen" />
 </p>
 
 ## Features
