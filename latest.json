@@ -1,10 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T05:14:35Z",
+  "generatedAt": "2026-11-16T21:12:10Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "v0.9.36-alpha",
+      "name": "0.9.36-alpha",
+      "version": "0.9.36-alpha",
+      "published_at": "2026-11-16T21:11:41Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.36-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.36-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.36-alpha/beakarr-0.9.36-alpha.apk",
+        "size": 69358418
+      },
+      "ipa": {
+        "name": "beakarr-0.9.36-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.36-alpha/beakarr-0.9.36-alpha.ipa",
+        "size": 12714823
+      },
+      "features": [
+        "**Updates page** at Settings → Version, in the Morphe style: summary card with installed→latest version pills, a \"N new releases\" line, and feature/fix/optimization count pills, then an expandable timeline with per-category cards, relative dates, and Pre-release/Latest badges.",
+        "**Search-as-you-type in Requests.** Typing queries SoulSync's v1 search endpoint and shows real tracks with cover art, album, source and duration. Request stays disabled until you pick a track, so only a real song can be submitted.",
+        "**Requests now land on the SoulSync wishlist.** A submitted track is written to the server wishlist, so it appears in the SoulSync web UI and can be tracked there.",
+        "**Submitted requests survive restarts.** They are persisted per SoulSync identity and shown in the Requests list instead of vanishing on refresh."
+      ],
+      "fixes": [
+        "**Requests no longer empty themselves after a submit.** The list had treated a session-only endpoint as its source of truth, so a submission appeared for a moment and then disappeared.",
+        "**Submits are no longer locked to one music provider.** The app now accepts whatever track identity the server's search returns, instead of refusing anything that was not Spotify. Verified on a Deezer-backed instance.",
+        "**Successful wishlist submits no longer show as FAILED.** The app stamped a provenance string as the failure reason and then read it back as a failure; provenance and failure are now separate.",
+        "**Updates page no longer opens as a blank grey screen.** Its providers were mounted outside the scoped container, which threw in release builds and rendered an empty screen instead of the page or an error.",
+        "**iOS app icon ships again.** The icon is included as bundle icons declared in the Info.plist, which works without an asset-catalog compiler.",
+        "**Release version codes no longer roll over.** Beta and nightly build numbers keep increasing instead of wrapping and producing installs the device treats as downgrades."
+      ],
+      "optimizations": [
+        "**Release manifest is regenerated in full on every release** rather than appended to, so it cannot drift, with a daily rebuild as self-heal.",
+        "**Manifest fetch no longer reports a stale cached release as confirmed up to date.**"
+      ],
+      "droppedCount": 0,
+      "notesHash": "18fa841738d571ccaaeec983a86405f4ed5567d53897a4530492399b137e502c"
+    },
     {
       "tag": "v0.9.35-alpha",
       "name": "0.9.35-alpha",
