@@ -1,10 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T21:46:21Z",
+  "generatedAt": "2026-11-16T22:33:17Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "v0.9.38-alpha",
+      "name": "0.9.38-alpha",
+      "version": "0.9.38-alpha",
+      "published_at": "2026-11-16T22:32:45Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.38-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.38-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.38-alpha/beakarr-0.9.38-alpha.apk",
+        "size": 69538302
+      },
+      "ipa": {
+        "name": "beakarr-0.9.38-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.38-alpha/beakarr-0.9.38-alpha.ipa",
+        "size": 12735378
+      },
+      "features": [
+        "**Updates page rebuilt to match the approved design.** Coloured release-count pills (features, fixes, optimizations), a timeline rail with Pre-release and Latest badges, per-category cards with a coloured icon and count, and stacked GitHub and Download actions.",
+        "**Manual Check for update on every state.** The button forces a real network check that bypasses the cache, shows a busy state, and reports the outcome. Pull-to-refresh works as well.",
+        "**Restore from backup during setup.** The services step now offers a Restore from backup card above the toggles, so a returning user never has to finish setup and dig through Settings.",
+        "**No services selected prompt.** Tapping Continue with nothing enabled explains that a backup can bring services, URLs and keys straight back, with Restore from backup and Set up services manually as explicit choices."
+      ],
+      "fixes": [
+        "**Update downloads no longer fail with 404.** Release manifests pointed the APK and IPA at the private source repository, which returns 404 without authentication; asset URLs now target the public mirror.",
+        "**Release notes render proper bold text.** Literal `**` markers were shown verbatim in the timeline; emphasis is now rendered and stray markers stripped.",
+        "**A cached result is never presented as a confirmed up-to-date state.** When the server cannot be reached the page says so and shows when it last checked.",
+        "**Successful wishlist submits no longer appear as FAILED.** Provenance is no longer written as a failure reason.",
+        "**Submits are no longer locked to a single music provider.** The app uses whatever track identity the server returns.",
+        "**Requests no longer empty themselves after a submit.**",
+        "**The iOS app icon ships again,** declared as bundle icons so it works without an asset-catalog compiler."
+      ],
+      "optimizations": [
+        "**Release manifest regeneration targets the public mirror for every asset,** and the manifest is rebuilt in full on each release instead of appended to."
+      ],
+      "droppedCount": 0,
+      "notesHash": "85af34a9554bf81239f6edca06f633dc5a6a228e7bf223736a1197811ae6b905"
+    },
     {
       "tag": "v0.9.36-alpha",
       "name": "0.9.36-alpha",
