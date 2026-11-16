@@ -1,0 +1,884 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-16T05:14:35Z",
+  "generator": "scripts/update-manifest.sh",
+  "sourceRepo": "wetw0rks-c0ding/Beakarr",
+  "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
+  "releases": [
+    {
+      "tag": "v0.9.35-alpha",
+      "name": "0.9.35-alpha",
+      "version": "0.9.35-alpha",
+      "published_at": "2026-11-16T05:14:05Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.35-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.35-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.35-alpha/beakarr-0.9.35-alpha.apk",
+        "size": 69177710
+      },
+      "ipa": {
+        "name": "beakarr-0.9.35-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.35-alpha/beakarr-0.9.35-alpha.ipa",
+        "size": 11543651
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 111,
+      "notesHash": "c1295f4ab3bcbfdb103ae21350a9002b5f546f029e0ad29d07d97044fe1f1919"
+    },
+    {
+      "tag": "v0.9.33-alpha",
+      "name": "v0.9.33-alpha",
+      "version": "0.9.33-alpha",
+      "published_at": "2026-11-15T05:38:27Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.33-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.33-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.33-alpha/beakarr-0.9.33-alpha.apk",
+        "size": 68899150
+      },
+      "ipa": {
+        "name": "beakarr-0.9.33-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.33-alpha/beakarr-0.9.33-alpha.ipa",
+        "size": 14624606
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 35,
+      "notesHash": "4a62df6dae08b358ad057bee1a79d4e35dd9860383366260e162e19656c5dd51"
+    },
+    {
+      "tag": "v0.9.32-alpha",
+      "name": "v0.9.32-alpha",
+      "version": "0.9.32-alpha",
+      "published_at": "2026-11-15T04:12:23Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.32-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.32-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.32-alpha/beakarr-0.9.32-alpha.apk",
+        "size": 68866170
+      },
+      "ipa": {
+        "name": "beakarr-0.9.32-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.32-alpha/beakarr-0.9.32-alpha.ipa",
+        "size": 14622387
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 28,
+      "notesHash": "83b33866f98a95bd9c990bdf159265370b1673ee91f4d3708fff51d2ab97a49d"
+    },
+    {
+      "tag": "v0.9.31-alpha",
+      "name": "v0.9.31-alpha",
+      "version": "0.9.31-alpha",
+      "published_at": "2026-11-15T03:25:16Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.31-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.31-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.31-alpha/beakarr-0.9.31-alpha.apk",
+        "size": 68866130
+      },
+      "ipa": {
+        "name": "beakarr-0.9.31-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.31-alpha/beakarr-0.9.31-alpha.ipa",
+        "size": 14619895
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 31,
+      "notesHash": "5fdad3872b3d821a5f30aea0220cccbed3dfaa3ea0377658ea902eda222acf23"
+    },
+    {
+      "tag": "v0.9.30-alpha",
+      "name": "v0.9.30-alpha",
+      "version": "0.9.30-alpha",
+      "published_at": "2026-11-14T19:58:31Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.30-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.30-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.30-alpha/beakarr-0.9.30-alpha.apk",
+        "size": 68784070
+      },
+      "ipa": {
+        "name": "beakarr-0.9.30-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.30-alpha/beakarr-0.9.30-alpha.ipa",
+        "size": 14603501
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 29,
+      "notesHash": "9256006689bdd76a9df5692cd5b219b14544be8a41852a027703eb07d71dafe5"
+    },
+    {
+      "tag": "v0.9.29-alpha",
+      "name": "v0.9.29-alpha",
+      "version": "0.9.29-alpha",
+      "published_at": "2026-11-14T16:45:16Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.29-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.29-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.29-alpha/beakarr-0.9.29-alpha.apk",
+        "size": 68751274
+      },
+      "ipa": {
+        "name": "beakarr-0.9.29-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.29-alpha/beakarr-0.9.29-alpha.ipa",
+        "size": 14597050
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 29,
+      "notesHash": "6e5297e16b4a38973070884a37cc6981d9102dd4e41d18565bcd2d4681230092"
+    },
+    {
+      "tag": "v0.9.28-alpha",
+      "name": "v0.9.28-alpha",
+      "version": "0.9.28-alpha",
+      "published_at": "2026-11-13T04:28:48Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.28-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.28-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.28-alpha/beakarr-0.9.28-alpha.apk",
+        "size": 68751434
+      },
+      "ipa": {
+        "name": "beakarr-0.9.28-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.28-alpha/beakarr-0.9.28-alpha.ipa",
+        "size": 14587048
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 23,
+      "notesHash": "3162d42b1e844a8b83d82f47ec6333c369941a1748a7b174bfb0d3c866e86cfe"
+    },
+    {
+      "tag": "v0.9.27-alpha",
+      "name": "v0.9.27-alpha",
+      "version": "0.9.27-alpha",
+      "published_at": "2026-11-12T23:02:01Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.27-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.27-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.27-alpha/beakarr-0.9.27-alpha.apk",
+        "size": 68571050
+      },
+      "ipa": {
+        "name": "beakarr-0.9.27-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.27-alpha/beakarr-0.9.27-alpha.ipa",
+        "size": 14572406
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 31,
+      "notesHash": "6f8e41ca163075805729092d317bd60417c5f7de47b9820c8acf609079af9d80"
+    },
+    {
+      "tag": "v0.9.26-alpha",
+      "name": "v0.9.26-alpha",
+      "version": "0.9.26-alpha",
+      "published_at": "2026-11-12T04:41:03Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.26-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.26-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.26-alpha/beakarr-0.9.26-alpha.apk",
+        "size": 67980942
+      },
+      "ipa": {
+        "name": "beakarr-0.9.26-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.26-alpha/beakarr-0.9.26-alpha.ipa",
+        "size": 14478565
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 19,
+      "notesHash": "4a4cd2cd3b44a8d5c2742352c8fa0e3f4b266b07b5d707e9d3b3f5e0ca80e9a4"
+    },
+    {
+      "tag": "v0.9.25-alpha",
+      "name": "v0.9.25-alpha",
+      "version": "0.9.25-alpha",
+      "published_at": "2026-11-11T20:14:25Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.25-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.25-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.25-alpha/beakarr-0.9.25-alpha.apk",
+        "size": 67948062
+      },
+      "ipa": {
+        "name": "beakarr-0.9.25-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.25-alpha/beakarr-0.9.25-alpha.ipa",
+        "size": 14466735
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 20,
+      "notesHash": "bfbc75a61bb0a9b32e3b7d406440ee089e618f0965bf11217206bc07e18f0fc3"
+    },
+    {
+      "tag": "v0.9.24-alpha",
+      "name": "v0.9.24-alpha",
+      "version": "0.9.24-alpha",
+      "published_at": "2026-11-11T04:23:40Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.24-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.24-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.24-alpha/beakarr-0.9.24-alpha.apk",
+        "size": 67866142
+      },
+      "ipa": {
+        "name": "beakarr-0.9.24-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.24-alpha/beakarr-0.9.24-alpha.ipa",
+        "size": 14459350
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 117,
+      "notesHash": "cf4d35451afb99f307bb5dff9bc2eb6e3a41d4d5dd644991a6bf8fdaef34a72d"
+    },
+    {
+      "tag": "v0.9.23-alpha",
+      "name": "v0.9.23-alpha",
+      "version": "0.9.23-alpha",
+      "published_at": "2026-11-11T01:15:06Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.23-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.23-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.23-alpha/beakarr-0.9.23-alpha.apk",
+        "size": 67571190
+      },
+      "ipa": {
+        "name": "beakarr-0.9.23-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.23-alpha/beakarr-0.9.23-alpha.ipa",
+        "size": 14419265
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 29,
+      "notesHash": "269a826c383293b8d660bb416e6cf9f8e4ca66ef4d1b6c0aeb90e85e10870b24"
+    },
+    {
+      "tag": "v0.9.22-alpha",
+      "name": "v0.9.22-alpha",
+      "version": "0.9.22-alpha",
+      "published_at": "2026-11-09T19:37:59Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.22-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.22-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.22-alpha/beakarr-0.9.22-alpha.apk",
+        "size": 67472886
+      },
+      "ipa": {
+        "name": "beakarr-0.9.22-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.22-alpha/beakarr-0.9.22-alpha.ipa",
+        "size": 14407197
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 28,
+      "notesHash": "05a09cc7055d0ad6dd4fefb18420f59984347156f7dcc793b69c5c83a62c4ef9"
+    },
+    {
+      "tag": "v0.9.21-alpha",
+      "name": "v0.9.21-alpha",
+      "version": "0.9.21-alpha",
+      "published_at": "2026-11-01T22:20:48Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.21-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.21.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.21-alpha/beakarr-0.9.21.apk",
+        "size": 67456502
+      },
+      "ipa": {
+        "name": "beakarr-0.9.21.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.21-alpha/beakarr-0.9.21.ipa",
+        "size": 11350013
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 5,
+      "notesHash": "d3f480c9558c528d85b3a012e0e558687a4cbeef5e405a8988bd85279fdcd341"
+    },
+    {
+      "tag": "v0.9.20-alpha",
+      "name": "0.9.20-alpha",
+      "version": "0.9.20-alpha",
+      "published_at": "2026-11-01T16:36:25Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.20-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.20-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.20-alpha/beakarr-0.9.20-alpha.apk",
+        "size": 67456502
+      },
+      "ipa": {
+        "name": "beakarr-0.9.20-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.20-alpha/beakarr-0.9.20-alpha.ipa",
+        "size": 13421651
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 42,
+      "notesHash": "3933ba5f1419a82d57856710b01362c2c203f7c068c73767c0d767a3d091feba"
+    },
+    {
+      "tag": "v0.9.19-alpha",
+      "name": "0.9.19-alpha",
+      "version": "0.9.19-alpha",
+      "published_at": "2026-11-01T04:19:35Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.19-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.19-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.19-alpha/beakarr-0.9.19-alpha.apk",
+        "size": 67341814
+      },
+      "ipa": {
+        "name": "beakarr-0.9.19-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.19-alpha/beakarr-0.9.19-alpha.ipa",
+        "size": 13405273
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 26,
+      "notesHash": "aee0e8175c1ba68964455532e4de73f43618aae4b70712a00048f870ea873b42"
+    },
+    {
+      "tag": "v0.9.18-alpha",
+      "name": "0.9.18-alpha",
+      "version": "0.9.18-alpha",
+      "published_at": "2026-11-01T02:19:27Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.18-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.18-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.18-alpha/beakarr-0.9.18-alpha.apk",
+        "size": 67341814
+      },
+      "ipa": {
+        "name": "beakarr-0.9.18-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.18-alpha/beakarr-0.9.18-alpha.ipa",
+        "size": 13405143
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 75,
+      "notesHash": "baf969a0a6177d8d3a7f0c91c86a3c91bb874ec24441bd2f7edc74a40f1e0bec"
+    },
+    {
+      "tag": "v0.9.17-alpha",
+      "name": "0.9.17-alpha",
+      "version": "0.9.17-alpha",
+      "published_at": "2026-10-31T19:38:22Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.17-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.17-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.17-alpha/beakarr-0.9.17-alpha.apk",
+        "size": 67226846
+      },
+      "ipa": {
+        "name": "beakarr-0.9.17-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.17-alpha/beakarr-0.9.17-alpha.ipa",
+        "size": 13388539
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 39,
+      "notesHash": "a40f1eee80c599c24bb160a87ec4fb3fe0ddb6024812607a2b670656f3ea9915"
+    },
+    {
+      "tag": "v0.9.16-alpha",
+      "name": "0.9.16-alpha",
+      "version": "0.9.16-alpha",
+      "published_at": "2026-10-31T14:59:15Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.16-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.16-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.16-alpha/beakarr-0.9.16-alpha.apk",
+        "size": 66981086
+      },
+      "ipa": {
+        "name": "beakarr-0.9.16-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.16-alpha/beakarr-0.9.16-alpha.ipa",
+        "size": 13368077
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 38,
+      "notesHash": "794f1b89016116282cab5c7f9c4c8e376a2316143ee470ca9c19dbe1bc0f8514"
+    },
+    {
+      "tag": "v0.9.15-alpha",
+      "name": "0.9.15-alpha",
+      "version": "0.9.15-alpha",
+      "published_at": "2026-10-31T13:56:59Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.15-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.15-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.15-alpha/beakarr-0.9.15-alpha.apk",
+        "size": 66833410
+      },
+      "ipa": {
+        "name": "beakarr-0.9.15-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.15-alpha/beakarr-0.9.15-alpha.ipa",
+        "size": 13348669
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 38,
+      "notesHash": "648715ac9b23ce196deed8482fff84de75847f571ea984fb997e9e5e6ecfccce"
+    },
+    {
+      "tag": "v0.9.14-alpha",
+      "name": "0.9.14-alpha",
+      "version": "0.9.14-alpha",
+      "published_at": "2026-10-31T06:13:36Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.14-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.14-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.14-alpha/beakarr-0.9.14-alpha.apk",
+        "size": 66537326
+      },
+      "ipa": {
+        "name": "beakarr-0.9.14-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.14-alpha/beakarr-0.9.14-alpha.ipa",
+        "size": 13307552
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 51,
+      "notesHash": "4e7b173315c63f75da7ddedf8622adc01c83904365afde648d1f2ed37bb6cdaf"
+    },
+    {
+      "tag": "v0.9.13-alpha",
+      "name": "0.9.13~alpha",
+      "version": "0.9.13-alpha",
+      "published_at": "2026-10-31T04:17:41Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.13-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.13-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.13-alpha/beakarr-0.9.13-alpha-android.apk",
+        "size": 66537322
+      },
+      "ipa": {
+        "name": "beakarr-0.9.13-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.13-alpha/beakarr-0.9.13-alpha-ios.ipa",
+        "size": 13300843
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 33,
+      "notesHash": "ada66c8973ed95ceee4801abbeca7e730223d423fde5ed81e54d4f6f2cfdd013"
+    },
+    {
+      "tag": "v0.9.12-alpha",
+      "name": "0.9.12~alpha",
+      "version": "0.9.12-alpha",
+      "published_at": "2026-10-30T18:17:22Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.12-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.12-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.12-alpha/seekarr-0.9.12-alpha-android.apk",
+        "size": 66379766
+      },
+      "ipa": {
+        "name": "seekarr-0.9.12-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.12-alpha/seekarr-0.9.12-alpha-ios.ipa",
+        "size": 13263116
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 25,
+      "notesHash": "8d02d008b93a369b5983a98829d2ffd20050a84470ea61ee28b159dddf912326"
+    },
+    {
+      "tag": "v0.9.11-alpha",
+      "name": "0.9.11~alpha",
+      "version": "0.9.11-alpha",
+      "published_at": "2026-10-30T06:12:51Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.11-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.11-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.11-alpha/seekarr-0.9.11-alpha-android.apk",
+        "size": 66379766
+      },
+      "ipa": {
+        "name": "seekarr-0.9.11-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.11-alpha/seekarr-0.9.11-alpha-ios.ipa",
+        "size": 13253522
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 25,
+      "notesHash": "dddb308d68e4354da437259f5904cf97d85b8f261928087d54c3f29995be8d31"
+    },
+    {
+      "tag": "v0.9.10-alpha",
+      "name": "0.9.10~alpha",
+      "version": "0.9.10-alpha",
+      "published_at": "2026-10-30T03:53:00Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.10-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.10-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.10-alpha/seekarr-0.9.10-alpha-android.apk",
+        "size": 66379766
+      },
+      "ipa": {
+        "name": "seekarr-0.9.10-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.10-alpha/seekarr-0.9.10-alpha-ios.ipa",
+        "size": 13253951
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 25,
+      "notesHash": "edc9753ce05cc6d3361aad2318f682da4b3e5149ca04b99b18d33585fe313af0"
+    },
+    {
+      "tag": "v0.9.9-alpha",
+      "name": "0.9.9~alpha",
+      "version": "0.9.9-alpha",
+      "published_at": "2026-10-30T02:12:39Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.9-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.9-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.9-alpha/seekarr-0.9.9-alpha-android.apk",
+        "size": 66363374
+      },
+      "ipa": {
+        "name": "seekarr-0.9.9-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.9-alpha/seekarr-0.9.9-alpha-ios.ipa",
+        "size": 13203267
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 37,
+      "notesHash": "57bba315e040f44f3a255204da4600f1b31e266de42ee132933c536fd5f15bb9"
+    },
+    {
+      "tag": "v0.9.8-alpha",
+      "name": "0.9.8~alpha",
+      "version": "0.9.8-alpha",
+      "published_at": "2026-10-30T01:54:25Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.8-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.8-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.8-alpha/seekarr-0.9.8-alpha-android.apk",
+        "size": 66363382
+      },
+      "ipa": {
+        "name": "seekarr-0.9.8-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.8-alpha/seekarr-0.9.8-alpha-ios.ipa",
+        "size": 13202569
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 24,
+      "notesHash": "abd992394be7b4e23b3f59605c27b526342652e93d3b3ec3b3097e2813a335a0"
+    },
+    {
+      "tag": "v0.9.7-alpha",
+      "name": "0.9.7~alpha",
+      "version": "0.9.7-alpha",
+      "published_at": "2026-10-30T01:53:54Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.7-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.7-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.7-alpha/seekarr-0.9.7-alpha-android.apk",
+        "size": 66363378
+      },
+      "ipa": {
+        "name": "seekarr-0.9.7-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.7-alpha/seekarr-0.9.7-alpha-ios.ipa",
+        "size": 13206023
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 38,
+      "notesHash": "5cddfa4f1c2b8b1f2715568d09aaf09f6d89f12ee9e2896fbb75d5118cc6731d"
+    },
+    {
+      "tag": "v0.9.6-alpha",
+      "name": "0.9.6~alpha",
+      "version": "0.9.6-alpha",
+      "published_at": "2026-10-30T01:53:20Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.6-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.6-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.6-alpha/seekarr-0.9.6-alpha-android.apk",
+        "size": 66120758
+      },
+      "ipa": {
+        "name": "seekarr-0.9.6-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.6-alpha/seekarr-0.9.6-alpha-ios.ipa",
+        "size": 13159319
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 32,
+      "notesHash": "34d850351fd38a5ce09a0f0279dc0df55ba9393f637ed9b898f263ad9eeb5a50"
+    },
+    {
+      "tag": "v0.9.5-alpha",
+      "name": "0.9.5~alpha",
+      "version": "0.9.5-alpha",
+      "published_at": "2026-10-29T03:02:00Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.5-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.5-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.5-alpha/seekarr-0.9.5-alpha-android.apk",
+        "size": 65891382
+      },
+      "ipa": {
+        "name": "seekarr-0.9.5-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.5-alpha/seekarr-0.9.5-alpha-ios.ipa",
+        "size": 14222981
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 1,
+      "notesHash": "cca065ad939d95fdea0ac4ca509c47793ea986ce64f298ad67aa9cfeee6c25de"
+    },
+    {
+      "tag": "v0.9.4-alpha",
+      "name": "0.9.4~alpha",
+      "version": "0.9.4-alpha",
+      "published_at": "2026-10-29T01:25:26Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.4-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.4-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.4-alpha/seekarr-0.9.4-alpha-android.apk",
+        "size": 65891382
+      },
+      "ipa": {
+        "name": "seekarr-0.9.4-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.4-alpha/seekarr-0.9.4-alpha-ios.ipa",
+        "size": 14222519
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 1,
+      "notesHash": "e93d56d3d8b709b834bcbbacd3d3fc69288385f51e84a521214560a0f3488753"
+    },
+    {
+      "tag": "v0.9.3-alpha",
+      "name": "0.9.3~alpha",
+      "version": "0.9.3-alpha",
+      "published_at": "2026-10-29T01:02:36Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.3-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.3-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.3-alpha/seekarr-0.9.3-alpha-android.apk",
+        "size": 65643994
+      },
+      "ipa": {
+        "name": "seekarr-0.9.3-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.3-alpha/seekarr-0.9.3-alpha-ios.ipa",
+        "size": 14154903
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 1,
+      "notesHash": "b83ebd69efe6acaa7d5ec5bec290a5f298aa835225a919cc83cc4af473f0623f"
+    },
+    {
+      "tag": "v0.9.2-alpha",
+      "name": "0.9.2~alpha",
+      "version": "0.9.2-alpha",
+      "published_at": "2026-10-28T17:22:04Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.2-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.2-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.2-alpha/seekarr-0.9.2-alpha-android.apk",
+        "size": 65594838
+      },
+      "ipa": {
+        "name": "seekarr-0.9.2-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.2-alpha/seekarr-0.9.2-alpha-ios.ipa",
+        "size": 14132307
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 1,
+      "notesHash": "1fd2a10e79251a7b6454c7983b21ff81e3a5af155ae31756d757df2532137bc4"
+    },
+    {
+      "tag": "v0.9.1-alpha",
+      "name": "0.9.1~alpha",
+      "version": "0.9.1-alpha",
+      "published_at": "2026-10-28T06:40:45Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.1-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.1-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.1-alpha/seekarr-0.9.1-alpha-android.apk",
+        "size": 65250658
+      },
+      "ipa": {
+        "name": "seekarr-0.9.1-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.1-alpha/seekarr-0.9.1-alpha-ios.ipa",
+        "size": 14118348
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 1,
+      "notesHash": "c38b9ca17ccbe1e6accd6a8231f8b35a002dff8a267ca85bdc321ff97b6c5f8b"
+    },
+    {
+      "tag": "v0.9.0-alpha",
+      "name": "0.9.0~alpha",
+      "version": "0.9.0-alpha",
+      "published_at": "2026-10-27T22:55:21Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.0-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "seekarr-0.9.0-alpha-android.apk",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.0-alpha/seekarr-0.9.0-alpha-android.apk",
+        "size": 64526897
+      },
+      "ipa": {
+        "name": "seekarr-0.9.0-alpha-ios.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/download/v0.9.0-alpha/seekarr-0.9.0-alpha-ios.ipa",
+        "size": 13627925
+      },
+      "features": [],
+      "fixes": [],
+      "optimizations": [],
+      "droppedCount": 2,
+      "notesHash": "922e09f4ffd311fff067c58a42d563408179f38baa49e77ea5f1e99f53eb1476"
+    }
+  ]
+}
