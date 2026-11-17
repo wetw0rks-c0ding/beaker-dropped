@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T09:04:09Z",
+  "generatedAt": "2026-11-17T19:11:02Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "nightly-20261117-bb2e894",
+      "name": "nightly-20261117-bb2e894",
+      "version": "nightly-20261117-bb2e894",
+      "published_at": "2026-11-17T19:10:34Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/nightly-20261117-bb2e894",
+      "channel": "nightly",
+      "apk": {
+        "name": "beakarr-0.9.41-nightly.20261117.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-bb2e894/beakarr-0.9.41-nightly.20261117.apk",
+        "size": 69767998
+      },
+      "ipa": {
+        "name": "beakarr-0.9.41-nightly.20261117.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-bb2e894/beakarr-0.9.41-nightly.20261117.ipa",
+        "size": 11626654
+      },
+      "features": [
+        "Library tab with collection stats, API-backed search and paginated browsing.",
+        "Watchlist tab with rules editor, unfollow and Scan now.",
+        "Profile switcher with X-Profile-Id request scoping and persistence.",
+        "Discover Cards/List/Compact view modes and More-tab overflow menu."
+      ],
+      "fixes": [
+        "One resolved active-profile source of truth so the header and scope header agree.",
+        "Grapheme-safe initials for profile avatars.",
+        "Mounted-guard after profile switch to avoid updates on an unmounted widget.",
+        "Library retry resets accumulated rows before refetching.",
+        "Watchlist rule save invalidates the provider so the updated rules take effect."
+      ],
+      "optimizations": [],
+      "droppedCount": 0,
+      "notesHash": "32f84480bb4f5ccc00584f5f765c1aa418385e9ba2523300e5d9b8da13d31b4d"
+    },
     {
       "tag": "nightly-20261117-f07eea9",
       "name": "nightly-20261117-f07eea9",
