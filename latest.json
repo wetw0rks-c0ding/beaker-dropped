@@ -1,10 +1,51 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T19:11:02Z",
+  "generatedAt": "2026-11-17T21:47:09Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "nightly-20261117-74b41c7",
+      "name": "nightly-20261117-74b41c7",
+      "version": "nightly-20261117-74b41c7",
+      "published_at": "2026-11-17T21:46:25Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/nightly-20261117-74b41c7",
+      "channel": "nightly",
+      "apk": {
+        "name": "beakarr-0.9.41-nightly.20261117.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-74b41c7/beakarr-0.9.41-nightly.20261117.apk",
+        "size": 69767998
+      },
+      "ipa": {
+        "name": "beakarr-0.9.41-nightly.20261117.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-74b41c7/beakarr-0.9.41-nightly.20261117.ipa",
+        "size": 11628204
+      },
+      "features": [
+        "Library tab with collection stats, API-backed search and paginated browsing.",
+        "Watchlist tab with rules editor, unfollow and Scan now.",
+        "Profile switcher with X-Profile-Id request scoping and persistence.",
+        "Discover Cards/List/Compact view modes and More-tab overflow menu."
+      ],
+      "fixes": [
+        "Active-profile scope made independent of the profile list so reloads cannot flip X-Profile-Id to 1.",
+        "Stale profile ids target their own id with an honest not-found label.",
+        "Unsaved profile selection is clearly marked and survives navigation.",
+        "Grapheme-safe initials for profile avatars.",
+        "Mounted guard after profile switch avoids updates on an unmounted widget.",
+        "Library retry resets accumulated rows before refetching.",
+        "Watchlist rule save invalidates the provider so updated rules take effect.",
+        "Header and Retry overflow plus the rule-edit race fixed.",
+        "Scan gated while profile lookup is pending.",
+        "Unsaved indicator stays visible behind long, ellipsized profile names."
+      ],
+      "optimizations": [],
+      "droppedCount": 0,
+      "notesHash": "a05154c95ecf1eac0d9b6100423ef74d7ef63e1ede68eab44d243a8c1e7849f5"
+    },
     {
       "tag": "nightly-20261117-bb2e894",
       "name": "nightly-20261117-bb2e894",
