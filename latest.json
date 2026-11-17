@@ -1,10 +1,43 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T22:33:17Z",
+  "generatedAt": "2026-11-17T00:15:59Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "v0.9.39-alpha",
+      "name": "0.9.39-alpha",
+      "version": "0.9.39-alpha",
+      "published_at": "2026-11-17T00:15:19Z",
+      "prerelease": false,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.39-alpha",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.39-alpha.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.39-alpha/beakarr-0.9.39-alpha.apk",
+        "size": 69472770
+      },
+      "ipa": {
+        "name": "beakarr-0.9.39-alpha.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.39-alpha/beakarr-0.9.39-alpha.ipa",
+        "size": 12729777
+      },
+      "features": [
+        "Recent releases on the up-to-date screen: the three newest releases shown collapsed, expanding to full notes, hard-capped at three.",
+        "Requests now lists server-confirmed wishlist entries, deduplicated against local submissions, with status taken from the server."
+      ],
+      "fixes": [
+        "Setup: Continue can no longer save settings while a backup restore is running.",
+        "Setup: a connection check that finishes after a restore is discarded instead of marking services connected for credentials that were replaced.",
+        "Release notes now respect the system text-size setting.",
+        "Release rows no longer expose download and release-page callbacks that nothing invoked."
+      ],
+      "optimizations": [],
+      "droppedCount": 0,
+      "notesHash": "45e6061d074c1b6eeb35055b7fe865cfbc0094b07d3dd37e6c98d7cc1b15193c"
+    },
     {
       "tag": "v0.9.38-alpha",
       "name": "0.9.38-alpha",
