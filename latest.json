@@ -1,10 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T01:53:07Z",
+  "generatedAt": "2026-11-17T02:51:13Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "v0.9.41",
+      "name": "0.9.41",
+      "version": "0.9.41",
+      "published_at": "2026-11-17T02:50:30Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.41",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.41.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.41/beakarr-0.9.41.apk",
+        "size": 69472758
+      },
+      "ipa": {
+        "name": "beakarr-0.9.41.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.41/beakarr-0.9.41.ipa",
+        "size": 11582281
+      },
+      "features": [],
+      "fixes": [
+        "The Updates action bar sits directly above the navigation bar and no longer covers release content; the timeline scrolls fully clear of it.",
+        "Inline code in release notes renders as code instead of showing literal backtick characters."
+      ],
+      "optimizations": [],
+      "droppedCount": 0,
+      "notesHash": "8be13618c0e2edc60d8f645d4fd187a8d55241b8897a6b9f0522ce59e70cdcd1"
+    },
     {
       "tag": "v0.9.40",
       "name": "0.9.40",
