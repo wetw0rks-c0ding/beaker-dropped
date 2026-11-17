@@ -1,10 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T00:15:59Z",
+  "generatedAt": "2026-11-17T01:53:07Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "v0.9.40",
+      "name": "0.9.40",
+      "version": "0.9.40",
+      "published_at": "2026-11-17T01:52:33Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/v0.9.40",
+      "channel": "stable",
+      "apk": {
+        "name": "beakarr-0.9.40.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.40/beakarr-0.9.40.apk",
+        "size": 69472762
+      },
+      "ipa": {
+        "name": "beakarr-0.9.40.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/v0.9.40/beakarr-0.9.40.ipa",
+        "size": 11582555
+      },
+      "features": [],
+      "fixes": [
+        "Release versions no longer carry an `-alpha` suffix; stable builds are `X.Y.Z`, with `-beta.N` and `-nightly.YYYYMMDD` reserved for prerelease channels."
+      ],
+      "optimizations": [],
+      "droppedCount": 0,
+      "notesHash": "895f46f40ca62a1d2ee79c97125adb6b2fdb26b8ecd9b088a95f787b5248b9c3"
+    },
     {
       "tag": "v0.9.39-alpha",
       "name": "0.9.39-alpha",
