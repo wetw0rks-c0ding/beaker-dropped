@@ -1,10 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T08:17:52Z",
+  "generatedAt": "2026-11-17T09:04:09Z",
   "generator": "scripts/update-manifest.sh",
   "sourceRepo": "wetw0rks-c0ding/Beakarr",
   "mirrorRepo": "wetw0rks-c0ding/beaker-dropped",
   "releases": [
+    {
+      "tag": "nightly-20261117-f07eea9",
+      "name": "nightly-20261117-f07eea9",
+      "version": "nightly-20261117-f07eea9",
+      "published_at": "2026-11-17T09:03:37Z",
+      "prerelease": true,
+      "draft": false,
+      "html_url": "https://github.com/wetw0rks-c0ding/Beakarr/releases/tag/nightly-20261117-f07eea9",
+      "channel": "nightly",
+      "apk": {
+        "name": "beakarr-0.9.41-nightly.20261117.apk",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-f07eea9/beakarr-0.9.41-nightly.20261117.apk",
+        "size": 69472782
+      },
+      "ipa": {
+        "name": "beakarr-0.9.41-nightly.20261117.ipa",
+        "url": "https://github.com/wetw0rks-c0ding/beaker-dropped/releases/download/nightly-20261117-f07eea9/beakarr-0.9.41-nightly.20261117.ipa",
+        "size": 11582240
+      },
+      "features": [],
+      "fixes": [
+        "Publish mid-loop builds as dated nightly prereleases instead of stable tags.",
+        "Keep the release manifest in sync with both repos after every nightly publish."
+      ],
+      "optimizations": [],
+      "droppedCount": 3,
+      "notesHash": "baa94b413a0534e029f0da7d5583d84cc1fd98eafdd04101dacdfaf95564fdad"
+    },
     {
       "tag": "v0.9.41",
       "name": "0.9.41",
